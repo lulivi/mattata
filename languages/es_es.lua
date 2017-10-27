@@ -94,40 +94,40 @@ return {
         ['10'] = '¡Ese mensaje contiene formato Markdown inválido! Por favor, corrige la sintaxis y vuelve a intentarlo.'
     },
     ['commandstats'] = {
-        ['1'] = 'No commands have been sent in this chat!',
-        ['2'] = '<b>Command statistics for:</b> %s\n\n%s\n<b>Total commands sent:</b> %s',
-        ['3'] = 'The command statistics for this chat have been reset!',
-        ['4'] = 'I could not reset the command statistics for this chat. Perhaps they have already been reset?'
+        ['1'] = '¡No se han enviado comandos en este chat!',
+        ['2'] = '<b>Las estadisticas de comando para:</b> %s\n\n%s\n<b>Número total de comandos enviados:</b> %s',
+        ['3'] = '¡Las estadísticas de los comandos para este chat han sido reseteadas!',
+        ['4'] = 'No puedo resetear las estadísticas de los comandos para este chat. ¿Quizás han sido reseteadas ya?'
     },
     ['control'] = {
-        ['1'] = 'Pfft, you wish!',
-        ['2'] = '%s is reloading...'
+        ['1'] = 'Pfft, you wish!', --#######################################################################################################################
+        ['2'] = '%s está recargando...'
     },
     ['copypasta'] = {
-        ['1'] = 'The replied-to text musn\'t be any longer than %s characters!'
+        ['1'] = '!El texto de \'responder a\' no puede ser más largo de %s caracteres!'
     },
     ['counter'] = {
-        ['1'] = 'I couldn\'t add a counter to that message!'
+        ['1'] = '¡No pude añadir un contador a ese mensaje!'
     },
     ['custom'] = {
-        ['1'] = 'Success! That message will now be sent every time somebody uses %s!',
-        ['2'] = 'The trigger "%s" does not exist!',
-        ['3'] = 'The trigger "%s" has been deleted!',
-        ['4'] = 'You don\'t have any custom triggers set!',
-        ['5'] = 'Custom commands for %s:\n',
-        ['6'] = 'To create a new, custom command, use the following syntax:\n/custom new #trigger <value>. To list all current triggers, use /custom list. To delete a trigger, use /custom del #trigger.'
+        ['1'] = '¡Éxito! ¡Ese mensaje se enviará cada vez que alguien use %s!',
+        ['2'] = '¡El disparador "%s" no existe!does not exist!',
+        ['3'] = '¡El disparador "%s" ha sido borrado!',
+        ['4'] = '¡No tienes ningun disparador personalizado!',
+        ['5'] = 'Comando personalizado para %s:\n',
+        ['6'] = 'Para crear un nuevo comando personalizado usa la siguiente sintaxis:\n/custom new #disparador <mensaje>. Para listar todos los disparadores actuales, usa /custom list. Para borrar un disparador, usa /custom del #disparador.'
     },
     ['delete'] = {
-        ['1'] = 'I could not delete that message. Perhaps the message is too old or non-existent?'
+        ['1'] = 'No pude borrar ese mensaje. ¿Quizás el mensaje es demasiado antiguo o no exista?'
     },
     ['demote'] = {
-        ['1'] = 'Which user would you like me to demote? You can specify this user by their @username or numerical ID.',
-        ['2'] = 'I cannot demote this user because they are not a moderator or an administrator in this chat.',
-        ['3'] = 'I cannot demote this user because they have already left this chat.',
-        ['4'] = 'I cannot demote this user because they have already been kicked from this chat.'
+        ['1'] = '¿A qué usuario quieres que relegue? Puedes indicar su @nombre_de_usuario o su ID numérica.',
+        ['2'] = 'No puedo relegar a este usuario porque no es un moderador o un administrador en este chat.',
+        ['3'] = 'No puedo relegar a este usuario porque ya ha salido de este chat.',
+        ['4'] = 'No puedo relegar a este usuario porque ya ha sido expulsado de este chat.'
     },
     ['developer'] = {
-        ['1'] = '"I\'m a web developer/programmer with a love for metal/rock music and spending time with friends!"',
+        ['1'] = '"¡Soy desarrollador/programador web con amor por la música metal/rock y por pasar tiempo con amigos"',
         ['2'] = 'Facebook',
         ['3'] = 'Messenger',
         ['4'] = 'Twitter',
@@ -145,105 +145,105 @@ return {
         ['16'] = 'Wikipedia'
     },
     ['dice'] = {
-        ['1'] = 'The minimum range is %s.',
-        ['2'] = 'The maximum range and count are both %s.',
-        ['3'] = 'The maximum range is %s, and the maximum count is %s.',
-        ['4'] = '%s rolls with a range of %s:\n'
+        ['1'] = 'El rango mínimo es %s.',
+        ['2'] = 'El rango máximo y el contador son %s.',
+        ['3'] = 'El rango máximo es %s, y el contador máximo es %s.',
+        ['4'] = '%s tiradas en un rango de %s:\n'
     },
     ['doge'] = {
-        ['1'] = 'Please enter the text you want to Doge-ify. Each sentence should be separated using slashes or new lines.'
+        ['1'] = 'Por favor, introduce el texto que quieras Doge-ar. Cada frase debería estar separada usando barras oblicuas o saltos de línea.'
     },
     ['duckduckgo'] = {
-        ['1'] = 'I\'m not sure what that is!'
+        ['1'] = '¡No estoy seguro de lo que es eso!'
     },
     ['eightball'] = {
-        ['1'] = 'Yes.',
+        ['1'] = 'Si.',
         ['2'] = 'No.',
-        ['3'] = 'It is likely so.',
-        ['4'] = 'Well, uh... I\'d ask again later, if I were you.'
+        ['3'] = 'Es probable.',
+        ['4'] = 'Bueno, ehm... Si fuese tú, preguntaría de nuevo más tarde.'
     },
     ['exec'] = {
-        ['1'] = 'Please select the language you would like to execute your code in:',
-        ['2'] = 'An error occured! The connection timed-out. Were you trying to make me lag?',
-        ['3'] = 'You have selected "%s" – are you sure?',
-        ['4'] = 'Back',
-        ['5'] = 'I\'m sure',
-        ['6'] = 'Please enter a snippet of code that you would like to run. You don\'t need to specify the language, we will do that afterwards!',
-        ['7'] = 'Please select the language you would like to execute your code in:'
+        ['1'] = 'Por favor, selecciona el lenguage en el que quieras ejecutar tu código:',
+        ['2'] = '¡Ocurrió un error! La conexión ha alcanzado el límite de tiempo permitido. ¿Intentabas retrasarme?',
+        ['3'] = 'Has seleccionado "%s" – ¿estás seguro?',
+        ['4'] = 'Atrás',
+        ['5'] = 'Estoy seguro',
+        ['6'] = 'Por favor, introduce el fragmento de código que quieras ejecutar. No tienes que especificar el lenguage, ¡Lo haremos después!',
+        ['7'] = 'Por favor, selecciona el lenguage en el que quieras ejecutar tu código:'
     },
     ['facebook'] = {
-        ['1'] = 'An error occured!',
-        ['2'] = 'Please enter the name of the Facebook user you would like to get the profile picture of.',
-        ['3'] = 'View @%s on Facebook'
+        ['1'] = '¡Ocurrió un error!',
+        ['2'] = 'Por favor, introduce el nombre del ususario de Facebook del cuál quieras obtener la imagen de perfil.',
+        ['3'] = 'Ver @%s en Facebook'
     },
     ['fact'] = {
-        ['1'] = 'Generate Another'
+        ['1'] = 'Generar otro'
     },
     ['flickr'] = {
-        ['1'] = 'You searched for:',
-        ['2'] = 'Please enter a search query (that is, what you want me to search Flickr for, i.e. "Big Ben" will return a photograph of Big Ben in London).',
-        ['3'] = 'More Results'
+        ['1'] = 'Buscaste por:',
+        ['2'] = 'Por favor introduce una consulta (esto es, qué es lo que quieres que busque en Flickr, por ejemplo "Big Ben" devolverá una foto del Big Ben de Londres).',
+        ['3'] = 'Más resultados'
     },
     ['fortune'] = {
-        ['1'] = 'Click to send your fortune!'
+        ['1'] = '¡Pincha para enviarte tu fortuna!'
     },
     ['frombinary'] = {
-        ['1'] = 'Please enter the binary value you would like to convert to a string.',
-        ['2'] = 'Malformed binary!'
+        ['1'] = 'Por favor, introduce el valor binario que quieras que convierta a string.',
+        ['2'] = '¡Binario malformado!'
     },
     ['game'] = {
-        ['1'] = 'Total wins: %s\nTotal losses: %s\nBalance: %s mattacoins',
-        ['2'] = 'Join Game',
-        ['3'] = 'This game has already ended!',
-        ['4'] = 'It\'s not your turn!',
-        ['5'] = 'You are not part of this game!',
-        ['6'] = 'You cannot go here!',
-        ['7'] = 'You are already part of this game!',
-        ['8'] = 'This game has already started!',
-        ['9'] = '%s [%s] is playing against %s [%s]\nIt is currently %s\'s turn!',
-        ['10'] = '%s won the game against %s!',
-        ['11'] = '%s drew the game against %s!',
-        ['12'] = 'Waiting for opponent...',
+        ['1'] = 'Total de victorias: %s\nTotal de derrotas: %s\nBalance: %s matatamonedas',
+        ['2'] = 'Unirse al juego',
+        ['3'] = '¡Este juego ya ha acabado!',
+        ['4'] = '¡No es tu turno!',
+        ['5'] = '¡No formas parte de este juego!',
+        ['6'] = '¡No puedes moverte ahí!',
+        ['7'] = '¡Ya eres parte de este juego!',
+        ['8'] = '¡Este juego ya ha empezado!',
+        ['9'] = '%s [%s] está jugando contra %s [%s]\n¡Actualmente es el turno de %s!',
+        ['10'] = '¡%s ganó el juego contra %s!',
+        ['11'] = '¡%s empató el juego contra %s!',
+        ['12'] = 'Esperando a oponente...',
         ['13'] = 'Tic-Tac-Toe',
-        ['14'] = 'Click to send the game to your chat!',
-        ['15'] = 'Statistics for %s:\n',
-        ['16'] = 'Play Tic-Tac-Toe!'
+        ['14'] = '¡Pincha para enviar el juego al chat!',
+        ['15'] = 'Estadísticas para %s:\n',
+        ['16'] = '¡Juega Tic-Tac-Toe!'
     },
     ['gblacklist'] = {
-        ['1'] = 'Please reply-to the user you\'d like to globally blacklist, or specify them by username/ID.',
-        ['2'] = 'I couldn\'t get information about "%s", please check it\'s a valid username/ID and try again.',
-        ['3'] = 'That\'s a %s, not a user!'
+        ['1'] = 'Por favor, responde al usuario que quieras meter en la lista negra globalmente, o especificale por nombre de usuario/ID.',
+        ['2'] = 'No pude obtener información sobre "%s". Por favor, comprueba que el nombre de usuario o la ID son válidos y vuelve a intentarlo.',
+        ['3'] = '¡Eso es un %s, no un usuario!'
     },
     ['gif'] = {
-        ['1'] = 'Please enter a search query (that is, what you want me to search GIPHY for, i.e. "cat" will return a GIF of a cat).'
+        ['1'] = 'Por favor, introduce una consulta (esto es, qué es lo que quieres que busque en GIPHY, por ejemplo "gato" devolverá un GIF de un gato).'
     },
     ['godwords'] = {
-        ['1'] = 'Please enter a numerical value, between 1 and 64!',
-        ['2'] = 'That number is too small, please specify one between 1 and 64!',
-        ['3'] = 'That number is too large, please specify one between 1 and 64!'
+        ['1'] = 'Por favor, !introduce un valor numérico entre el 1 y el 64!',
+        ['2'] = 'Ese número es demasiado pequeño. Por favor, !especifica uno entre el 1 y el 64!',
+        ['3'] = 'Ese número es demasiado grande. Por favor, !especifica uno entre el 1 y el 64!'
     },
     ['gwhitelist'] = {
-        ['1'] = 'Please reply-to the user you\'d like to globally whitelist, or specify them by username/ID.',
-        ['2'] = 'I couldn\'t get information about "%s", please check it\'s a valid username/ID and try again.',
-        ['3'] = 'That\'s a %s, not a user!'
+        ['1'] = 'Por favor responde al usuario que quiereas que ponga en la lista blanca globalmente, o especificale por nombre de usuario/ID.',
+        ['2'] = 'No pude obtener información sobre "%s". Por favor, comprueba que el nombre de usuario o la ID son válidos y vuelve a intentarlo',
+        ['3'] = '¡Eso es un %s, no un usuario!'
     },
     ['hackernews'] = {
-        ['1'] = 'Top Stories from Hacker News:'
+        ['1'] = 'Mejores historias de Hacker News:'
     },
     ['help'] = {
-        ['1'] = 'No results found!',
-        ['2'] = 'There were no features found matching "%s", please try and be more specific!',
+        ['1'] = '¡No se han encontrado resultados!',
+        ['2'] = 'No se encontraron funcionalidades que coincidieran con "%s", por favor, ¡vuelve a intentarlo y sé más específico!',
         ['3'] = '\n\nArguments: <required> [optional]\n\nSearch for a feature or get help with a command by using my inline search functionality - just mention me in any chat using the syntax @%s <search query>.',
         ['4'] = 'Previous',
-        ['5'] = 'Next',
-        ['6'] = 'Back',
-        ['7'] = 'Search',
-        ['8'] = 'You are on page %s of %s!',
+        ['5'] = 'Siguiente',
+        ['6'] = 'Atrás',
+        ['7'] = 'Buscar',
+        ['8'] = '¡Te encuentras en la página %s de %s!',
         ['9'] = [[
-I can perform many administrative actions in your groups, just add me as an administrator and send /administration to adjust the settings for your group.
-Here are some administrative commands and a brief comment regarding what they do:
+Puedo llevar a cabo muchas tareas de administración en tus grupos. Sólo añademe como un administrador y envía /administration para configurar las opciones de tu grupo.
+Aquí hay algunos comandos administrativos y una breve descripción de lo que hacen:
 
-• /pin <text> - Send a Markdown-formatted message which can be edited by using the same command with different text, to save you from having to re-pin a message if you can't edit it (which happens if the message is older than 48 hours)
+• /pin <texto> - Envía un mensaje formateado con Markdown el cuál puede ser editado usando el mismo comando con texto diferente, para ahorrarte el tener que volver a anclar el mensaje si no se puede editar (que es lo que pasa cuando el mensaje tiene más de 48 horas)
 
 • /ban - Ban a user by replying to one of their messages, or by specifying them by username/ID
 
@@ -303,7 +303,7 @@ I understand many commands, which you can learn more about by pressing the "Comm
     },
     ['imdb'] = {
         ['1'] = 'Previous',
-        ['2'] = 'Next',
+        ['2'] = 'Siguiente',
         ['3'] = 'You are on page %s of %s!'
     },
     ['import'] = {
@@ -412,8 +412,8 @@ System:
         ['1'] = '<b>%s has changed his/her username %s time</b>',
         ['2'] = '<b>%s has changed his/her username %s times</b>',
         ['3'] = 'Previous',
-        ['4'] = 'Next',
-        ['5'] = 'Back',
+        ['4'] = 'Siguiente',
+        ['5'] = 'Atrás',
         ['6'] = 'UUID',
         ['7'] = 'Avatar',
         ['8'] = 'Username History',
@@ -514,13 +514,13 @@ System:
         ['1'] = 'Please select a service to upload your paste to:'
     },
     ['pay'] = {
-        ['1'] = 'You currently have %s mattacoins. Earn more by winning games of Tic-Tac-Toe, using /game - You will win 100 mattacoins for every game you win, and you will lose 50 for every game you lose.',
-        ['2'] = 'You must use this command in reply to the user you\'d like to send mattacoins to.',
-        ['3'] = 'Please specify the amount of mattacoins you\'d like to give %s.',
+        ['1'] = 'You currently have %s matatamonedas. Earn more by winning games of Tic-Tac-Toe, using /game - You will win 100 matatamonedas for every game you win, and you will lose 50 for every game you lose.',
+        ['2'] = 'You must use this command in reply to the user you\'d like to send matatamonedas to.',
+        ['3'] = 'Please specify the amount of matatamonedas you\'d like to give %s.',
         ['4'] = 'The amount specified should be a numerical value, of which can be no less than 0.',
         ['5'] = 'You can\'t send money to yourself!',
         ['6'] = 'You don\'t have enough funds to complete that transaction!',
-        ['7'] = '%s mattacoins have been sent to %s. Your new balance is %s mattacoins.'
+        ['7'] = '%s matatamonedas have been sent to %s. Your new balance is %s matatamonedas.'
     },
     ['pin'] = {
         ['1'] = 'You haven\'t set a pin before. Use /pin <text> to set one. Markdown formatting is supported.',
@@ -695,7 +695,7 @@ System:
     },
     ['youtube'] = {
         ['1'] = 'Previous',
-        ['2'] = 'Next',
+        ['2'] = 'Siguiente',
         ['3'] = 'You are on page %s of %s!'
     }
 }
