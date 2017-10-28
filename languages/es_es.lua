@@ -636,9 +636,9 @@ System:
         ['1'] = 'Please enter the string you would like to convert to binary.'
     },
     ['trust'] = {
-        ['1'] = 'I cannot trust this user because they are a moderator or an administrator of this chat.',
-        ['2'] = 'I cannot trust this user because they have already left this chat.',
-        ['3'] = 'I cannot trust this user because they have already been kicked from this chat.'
+        ['1'] = 'No puedo confiar en este usuario porque es un moderador o un administrador de este chat.',
+        ['2'] = 'No puedo confiar en este usuario porque ha dejado este chat.',
+        ['3'] = 'No puedo confiar en este usuario porque ha sido expulsado de este chat.'
     },
     ['unmute'] = {
         ['1'] = 'Which user would you like me to unmute? You can specify this user by their @username or numerical ID.',
@@ -675,27 +675,27 @@ System:
         ['10'] = 'You upvoted the decision to ban %s [%s]!',
         ['11'] = 'Your current vote has been retracted, use the buttons again to re-submit your vote.',
         ['12'] = 'You downvoted the decision to ban %s [%s]!',
-        ['13'] = 'A vote-ban has already been opened for this user!'
+        ['13'] = '¡Una votación de baneo se ha abierto para este usuario!'
     },
     ['weather'] = {
-        ['1'] = 'You don\'t have a location set. Use /setloc <location> to set one.',
-        ['2'] = 'It\'s currently %s (feels like %s) in %s. %s'
+        ['1'] = 'No has establecido una localización. Usa setloc <localizacion> para establecer una.',
+        ['2'] = 'Actualmente, hay %s (sensación términca %s) en %s. %s'
     },
     ['welcome'] = {
-        ['1'] = 'Group Rules'
+        ['1'] = 'Normas del grupo'
     },
     ['whitelist'] = {
-        ['1'] = 'Which user would you like me to whitelist? You can specify this user by their @username or numerical ID.',
-        ['2'] = 'I cannot whitelist this user because they are a moderator or an administrator in this chat.',
-        ['3'] = 'I cannot whitelist this user because they have already left this chat.',
-        ['4'] = 'I cannot whitelist this user because they have already been banned from this chat.'
+        ['1'] = 'Qué usuario deseas que añada a la lista blanca? Puedes indicar su @username o su ID numérica.',
+        ['2'] = 'No puedo añadir a este usuario a la lista blanca porque es un moderador o un administrador en este chat.',
+        ['3'] = 'No puedo añadir a este usuario a la lista blanca porque ha dejado este chat.',
+        ['4'] = 'No puedo añadir a este usuario a la lista blanca porque se encuentra baneado en este chat.'
     },
     ['wikipedia'] = {
         ['1'] = 'Read more.'
     },
     ['youtube'] = {
-        ['1'] = 'Previous',
+        ['1'] = 'Anterior',
         ['2'] = 'Siguiente',
-        ['3'] = 'You are on page %s of %s!'
+        ['3'] = 'Estás en la página %s de %s!'
     }
 }
