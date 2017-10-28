@@ -685,17 +685,17 @@ System:
         ['1'] = 'Normas del grupo'
     },
     ['whitelist'] = {
-        ['1'] = 'Qué usuario deseas que añada a la lista blanca? Puedes indicar su @username o su ID numérica.',
+        ['1'] = '¿Qué usuario deseas que añada a la lista blanca? Puedes indicar su @username o su ID numérica.',
         ['2'] = 'No puedo añadir a este usuario a la lista blanca porque es un moderador o un administrador en este chat.',
         ['3'] = 'No puedo añadir a este usuario a la lista blanca porque ha dejado este chat.',
         ['4'] = 'No puedo añadir a este usuario a la lista blanca porque se encuentra baneado en este chat.'
     },
     ['wikipedia'] = {
-        ['1'] = 'Read more.'
+        ['1'] = 'Leer más.'
     },
     ['youtube'] = {
         ['1'] = 'Anterior',
         ['2'] = 'Siguiente',
-        ['3'] = 'Estás en la página %s de %s!'
+        ['3'] = '¡Estás en la página %s de %s!'
     }
 }
