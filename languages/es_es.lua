@@ -562,7 +562,7 @@ System:
         ['5'] = 'I\'ve successfully reported that message to %s admin(s)!'
     },
     ['rms'] = {
-        ['1'] = 'Holy GNU!'
+        ['1'] = '¡Sagrado GNU!'
     },
     ['save'] = {
         ['1'] = 'This user has opted out of data-storing functionality.',
@@ -575,9 +575,9 @@ System:
         ['4'] = 'Screw you, <i>when am I ever wrong?</i>',
         ['5'] = '"<code>%s</code>" isn\'t a valid Lua pattern.',
         ['6'] = '<b>Hi, %s, did you mean:</b>\n<i>%s</i>',
-        ['7'] = 'Yes',
+        ['7'] = 'Sí',
         ['8'] = 'No',
-        ['9'] = 'Not sure'
+        ['9'] = 'No estoy seguro'
     },
     ['setgrouplang'] = {
         ['1'] = 'This group\'s language has been set to %s!',
@@ -587,16 +587,16 @@ System:
         ['5'] = 'Deshabilitar'
     },
     ['setlang'] = {
-        ['1'] = 'Your language has been set to %s!',
-        ['2'] = 'Your language is currently %s.\nPlease note that some strings may not be translated as of yet. If you\'d like to change your language, select one using the keyboard below:'
+        ['1'] = '¡Se ha establecido tu idioma a %s!',
+        ['2'] = 'Tu idioma actual es %s.\nPor favor, ten en cuenta que algunas cadenas pueden no haber sido traducidas aún. Si quieres cambiar de idioma, selecciona uno utilizando el teclado que se muestra a continuación:'
     },
     ['setlink'] = {
-        ['1'] = 'That\'s not a valid URL.',
-        ['2'] = 'Link set successfully!'
+        ['1'] = 'Esta URL no es válida',
+        ['2'] = '¡Se ha establecido el enlace correctamente!'
     },
     ['setrules'] = {
-        ['1'] = 'Invalid Markdown formatting.',
-        ['2'] = 'Successfully set the new rules!'
+        ['1'] = 'El formato Markdown es inválido.',
+        ['2'] = '¡Se han establecido nuevas reglas correctamente!'
     },
     ['setwelcome'] = {
         ['1'] = 'What would you like the welcome message to be? The text you specify will be Markdown-formatted and sent every time a user joins the chat (the welcome message can be disabled in the administration menu, accessible via /administration). You can use placeholders to automatically customise the welcome message for each user. Use $user_id to insert the user\'s numerical ID, $chat_id to insert the chat\'s numerical ID, $name to insert the user\'s name, $title to insert the chat\'s title and $username to insert the user\'s username (if the user doesn\'t have an @username, their name will be used instead, so it is best to avoid using this in conjunction with $name).',
@@ -604,10 +604,10 @@ System:
         ['3'] = 'The welcome message for %s has successfully been updated!'
     },
     ['share'] = {
-        ['1'] = 'Share'
+        ['1'] = 'Compartir'
     },
     ['shorten'] = {
-        ['1'] = 'Please select a URL shortener using the buttons below:'
+        ['1'] = 'Por favor, selecciona un acortador de URL utilizando los botones siguientes:'
     },
     ['shsh'] = {
         ['1'] = 'I couldn\'t fetch any SHSH blobs for that ECID, please ensure it\'s valid and you have saved them using https://tsssaver.1conan.com.',
@@ -673,7 +673,7 @@ System:
         ['8'] = 'The required upvote amount was reached, however, I was unable to ban %s - perhaps they\'ve left the group or been promoted since we opened the vote to ban them? It\'s either that, or I no longer have the administrative privileges required in order to perform this action!',
         ['9'] = 'The people have spoken. I haven\'t banned %s [%s] from %s because the required %s people downvoted the decision to ban them.',
         ['10'] = 'You upvoted the decision to ban %s [%s]!',
-        ['11'] = 'Your current vote has been retracted, use the buttons again to re-submit your vote.',
+        ['11'] = 'Has retirado tu voto, usa los botones nuevamente para vota nuevamente.',
         ['12'] = 'You downvoted the decision to ban %s [%s]!',
         ['13'] = '¡Una votación de baneo se ha abierto para este usuario!'
     },
