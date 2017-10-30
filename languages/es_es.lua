@@ -100,8 +100,8 @@ return {
         ['4'] = 'No puedo resetear las estadísticas de los comandos para este chat. ¿Quizás han sido reseteadas ya?'
     },
     ['control'] = {
-        ['1'] = 'Pfft, you wish!', --#######################################################################################################################
-        ['2'] = '%s está recargando...'
+        ['1'] = 'Sí... ¡Más quisieras!',
+        ['2'] = '%s está recargandose...'
     },
     ['copypasta'] = {
         ['1'] = '!El texto de \'responder a\' no puede ser más largo de %s caracteres!'
@@ -245,43 +245,43 @@ Aquí hay algunos comandos administrativos y una breve descripción de lo que ha
 
 • /pin <texto> - Envía un mensaje formateado con Markdown el cuál puede ser editado usando el mismo comando con texto diferente, para ahorrarte el tener que volver a anclar el mensaje si no se puede editar (que es lo que pasa cuando el mensaje tiene más de 48 horas)
 
-• /ban - Ban a user by replying to one of their messages, or by specifying them by username/ID
+• /ban - Banea un usuario respondiendo a uno de sus mensajes o especificando su nombre de usuario/ID
 
-• /kick - Kick (ban and then unban) a user by replying to one of their messages, or by specifying them by username/ID
+• /kick - Expulsa (banea y luego desbanea) un usuario respondiendo a uno de sus mensajes o especificando su nombre de usuario/ID
 
 • /unban - Unban a user by replying to one of their messages, or by specifying them by username/ID
 
 • /setrules <text> - Set the given Markdown-formatted text as the group rules, which will be sent whenever somebody uses /rules
         ]],
         ['10'] = [[
-• /setwelcome - Set the given Markdown-formatted text as a welcome message that will be sent every time a user joins your group (the welcome message can be disabled in the administration menu, accessible via /administration). You can use placeholders to automatically customise the welcome message for each user. Use $user\_id to insert the user's numerical ID, $chat\_id to insert the chat's numerical ID, $name to insert the user's name, $title to insert the chat title and $username to insert the user's username (if the user doesn't have an @username, their name will be used instead, so it is best to avoid using this with $name)
+• /setwelcome - Define el texto formateado con Markdown como mensaje de bienvenida que se enviara cada vez que un usuario entra en tu grupo (el mensaje de bienvenida puede ser deshabilitado desde el menú de administración, accesible via /administration). Puedes usar marcadores para personalizar el mensaje de bienvenida para cada usuario. Usa $user\_id para insertar la ID numérica del usuario, $chat\_id para insertar la ID numérica del chat, $name para insertar el nombre del usuario, $title para insertar el título del chat y $username para insertar el nombre de usuario del nuevo integrante (si el usuario no tiene nombre de usuario, se utilizará su nombre, así que es mejor no utilizar $name)
 
-• /warn - Warn a user, and ban them when they hit the maximum number of warnings
+• /warn - Advierte a un usuario. También lo banea si ha llegado al número máximo de advertencias
 
-• /mod - Promote the replied-to user, giving them access to administrative commands such as /ban, /kick, /warn etc. (this is useful when you don't want somebody to have the ability to delete messages!)
+• /mod - Promociona al usuario al que se le responde a moderador, dandole acceso a los comandos administrativos como /ban, /kick, /warn etc. (!esto es útil cuando no quieres que alguien sea capaz de borrar mensajes!)
 
-• /demod - Demote the replied-to user, stripping them from their moderation status and revoking their ability to use administrative commands
+• /demod - Quita de moderadores a quien se le responde, impidiendole usar los comandos de administración
 
-• /staff - View the group's creator, administrators, and moderators in a neatly-formatted list
+• /staff - Ver el creador del grupo, los adminsitradores y los moderadores en una lista bien presentada
         ]],
         ['11'] = [[
-• /report - Forwards the replied-to message to all administrators and alerts them of the current situation
+• /report - Reenvía el mensaje al que se le responde a todos los administradores y los alerta de la situación actual
 
-• /setlink <URL> - Set the group's link to the given URL, which will be sent whenever somebody uses /link
+• /setlink <URL> - Establece el link del grupo a la URL dada, la cual será enviada cada vez que alguien use el comando /link
 
-• /links <text> - Whitelists all of the Telegram links found in the given text (includes @username links)
+• /links <text> - Pone en la lista blanca todos los links encontrados en el texto dado (incluye links del tipo @nombre_de_usuario)
         ]],
-        ['12'] = 'Below are some links you might find useful:',
-        ['13'] = 'Development',
-        ['14'] = 'Channel',
-        ['15'] = 'Support',
-        ['16'] = 'FAQ',
-        ['17'] = 'Source',
-        ['18'] = 'Donate',
-        ['19'] = 'Rate',
-        ['20'] = 'Administration Log',
-        ['21'] = 'Admin Settings',
-        ['22'] = 'Plugins',
+        ['12'] = 'Debajo hay algunos links que pueden ser útiles:',
+        ['13'] = 'Desarrollo',
+        ['14'] = 'Canal',
+        ['15'] = 'Soporte',
+        ['16'] = 'Preguntas frecuentes',
+        ['17'] = 'Fuente',
+        ['18'] = 'Donar',
+        ['19'] = 'Califica',
+        ['20'] = 'Registro de administración',
+        ['21'] = 'Configuraciónes de Administrador',
+        ['22'] = 'Programas adicionales',
         ['23'] = [[
 <b>Hi %s! My name's %s, it's a pleasure to meet you</b> %s
 
