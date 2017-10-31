@@ -531,28 +531,28 @@ System:
         ['6'] = 'Click here to see the pin, updated to contain the text you gave me.'
     },
     ['pokedex'] = {
-        ['1'] = 'Name: %s\nID: %s\nType: %s\nDescription: %s'
+        ['1'] = 'Nombre: %s\nID: %s\Tipo: %s\Descripción: %s'
     },
     ['prime'] = {
-        ['1'] = 'Please enter a number between 1 and 99999.',
-        ['2'] = '%s is a prime number!',
-        ['3'] = '%s is NOT a prime number...'
+        ['1'] = 'Por favor, introduce un número entre 1 y 99999.',
+        ['2'] = '%s es un número primo!',
+        ['3'] = '%s NO es un número primo...'
     },
     ['promote'] = {
-        ['1'] = 'I cannot promote this user because they are a moderator or an administrator of this chat.',
-        ['2'] = 'I cannot promote this user because they have already left this chat.',
-        ['3'] = 'I cannot promote this user because they have already been kicked from this chat.'
+        ['1'] = 'No puedo promocionar a este usuario porque es administrador en este chat.',
+        ['2'] = 'No puedo promocionar a este usuario porque ha abandonado este chat.',
+        ['3'] = 'No puedo promocionar a este usuario porque ha sido expulsado de este chat.'
     },
     ['quote'] = {
         ['1'] = 'This user has opted out of data-storing functionality.',
         ['2'] = 'There are no saved quotes for %s%s! You can save one by using /save in reply to a message they send.'
     },
     ['randomsite'] = {
-        ['1'] = 'Generate Another'
+        ['1'] = 'Generar otro'
     },
     ['randomword'] = {
-        ['1'] = 'Generate Another',
-        ['2'] = 'Your random word is <b>%s</b>!'
+        ['1'] = 'Generar otra',
+        ['2'] = 'Tu palabra aleatoria es is <b>%s</b>!'
     },
     ['report'] = {
         ['1'] = 'Please reply to the message you would like to report to the group\'s administrators.',
