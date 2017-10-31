@@ -627,13 +627,13 @@ System:
         ['4'] = '%s, AKA "%s",'
     },
     ['synonym'] = {
-        ['1'] = 'You could use the word <b>%s</b>, instead of %s.'
+        ['1'] = 'Puedes utilizar la palabra <b>%s</b>, en lugar de %s.'
     },
     ['thoughts'] = {
-        ['1'] = '%s\n\nPositive: <code>%s%% [%s]</code>\nNegative: <code>%s%% [%s]</code>\nIndifferent: <code>%s%% [%s]</code>\nTotal thoughts: <code>%s</code>'
+        ['1'] = '%s\n\nPositivo: <code>%s%% [%s]</code>\nNegativo: <code>%s%% [%s]</code>\nIndiferente: <code>%s%% [%s]</code>\nPensamientos totales: <code>%s</code>'
     },
     ['tobinary'] = {
-        ['1'] = 'Please enter the string you would like to convert to binary.'
+        ['1'] = 'Por favor, introduce la cadena que te gustaría convertir a binario.'
     },
     ['trust'] = {
         ['1'] = 'No puedo confiar en este usuario porque es un moderador o un administrador de este chat.',
@@ -641,7 +641,7 @@ System:
         ['3'] = 'No puedo confiar en este usuario porque ha sido expulsado de este chat.'
     },
     ['unmute'] = {
-        ['1'] = 'Which user would you like me to unmute? You can specify this user by their @username or numerical ID.',
+        ['1'] = '¿Qué usuario desearías dejar de silenciar? Puedes especificarlo mediante su @nick o su identificador.',
         ['2'] = 'I cannot unmute this user because they are not currently muted in this chat.',
         ['3'] = 'I cannot unmute this user because they are a moderator or an administrator in this chat.',
         ['4'] = 'I cannot unmute this user because they have already left (or been kicked from) this chat.'
