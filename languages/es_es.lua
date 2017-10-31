@@ -531,7 +531,7 @@ System:
         ['6'] = 'Click here to see the pin, updated to contain the text you gave me.'
     },
     ['pokedex'] = {
-        ['1'] = 'Nombre: %s\nID: %s\Tipo: %s\Descripción: %s'
+        ['1'] = 'Nombre: %s\nID: %s\nTipo: %s\nDescripción: %s'
     },
     ['prime'] = {
         ['1'] = 'Por favor, introduce un número entre 1 y 99999.',
