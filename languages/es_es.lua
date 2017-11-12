@@ -310,11 +310,11 @@ Sistema:
         ['9'] = 'Obtener la ilustración del álbum'
     },
     ['kick'] = {
-        ['1'] = 'Which user would you like me to kick? You can specify this user by their @username or numerical ID.',
-        ['2'] = 'I cannot kick this user because they are a moderator or an administrator in this chat.',
-        ['3'] = 'I cannot kick this user because they have already left this chat.',
-        ['4'] = 'I cannot kick this user because they have already been kicked from this chat.',
-        ['5'] = 'I need to have administrative permissions in order to kick this user. Please amend this issue, and try again.'
+        ['1'] = '¿Qué usuario querrías que echara? Puedes indicarlo por su @nombre_de_usuario o por su ID numérica.',
+        ['2'] = 'No puedo expulsar a este usuario porque es un moderador o un administrador en este chat.',
+        ['3'] = 'No puedo expulsar a este usuario porque ya ha salido de este chat.',
+        ['4'] = 'No puedo expulsar a este usuario porque ya se le ha echado de este chat.',
+        ['5'] = 'Necesito tener permisos administrativos para expulsar a ese usuario. Por favor, remedia este problema y vuelve a intentarlo..'
     },
     ['lastfm'] = {
         ['1'] = '%s\'s last.fm username has been set to "%s".',
