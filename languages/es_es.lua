@@ -46,7 +46,6 @@ return {
         ['4'] = 'Ese usuario ha optado por no participar en la funcionalidad de recolección de datos, esto implica que no tengo permitido enseñarte ninguna de sus fotos de perfil.'
     },
     ['ban'] = {
-
         ['1'] = '¿A qué usuario quieres que banee? Puedes indicar su @nombre_de_usuario o su ID numérica.',
         ['2'] = 'No puedo banear a este usuario porque es moderador o administrador en este chat.',
         ['3'] = 'No puedo banear a este usuario porque ya ha saalido este chat.',
@@ -66,7 +65,7 @@ return {
     ['blacklistchat'] = {
         ['1'] = '%s ha sido puesto en la lista negra. ¡Ahora me saldré siempre que me metan ahí!',
         ['2'] = '%s es un usuairo. ¡Este comando sólo sirve para poner en la lista negra a chats como grupos y canales!',
-        ['3'] = '%s doesn\'t appear to be a valid chat!'
+        ['3'] = '¡%s no parece ser un chat válido!'
     },
     ['bugreport'] = {
         ['1'] = '¡Éxito! Tu reporte del error se ha enviado. El ID del reporte es #%s.',
@@ -106,9 +105,6 @@ return {
     ['copypasta'] = {
         ['1'] = '!El texto de \'responder a\' no puede ser más largo de %s caracteres!'
     },
-    ['counter'] = {
-        ['1'] = '¡No pude añadir un contador a ese mensaje!'
-    },
     ['custom'] = {
         ['1'] = '¡Éxito! ¡Ese mensaje se enviará cada vez que alguien use %s!',
         ['2'] = '¡El disparador "%s" no existe!does not exist!',
@@ -126,101 +122,56 @@ return {
         ['3'] = 'No puedo relegar a este usuario porque ya ha salido de este chat.',
         ['4'] = 'No puedo relegar a este usuario porque ya ha sido expulsado de este chat.'
     },
-    ['developer'] = {
-        ['1'] = '"¡Soy desarrollador/programador web con amor por la música metal/rock y por pasar tiempo con amigos"',
-        ['2'] = 'Facebook',
-        ['3'] = 'Messenger',
-        ['4'] = 'Twitter',
-        ['5'] = 'Instagram',
-        ['6'] = 'Keybase',
-        ['7'] = 'Snapchat',
-        ['8'] = 'GitHub',
-        ['9'] = 'Telegram',
-        ['10'] = 'Trello',
-        ['11'] = 'Pinterest',
-        ['12'] = 'Google+',
-        ['13'] = 'tumblr',
-        ['14'] = 'Imgur',
-        ['15'] = 'Instapaper',
-        ['16'] = 'Wikipedia'
-    },
-    ['dice'] = {
-        ['1'] = 'El rango mínimo es %s.',
-        ['2'] = 'El rango máximo y el contador son %s.',
-        ['3'] = 'El rango máximo es %s, y el contador máximo es %s.',
-        ['4'] = '%s tiradas en un rango de %s:\n'
-    },
     ['doge'] = {
-        ['1'] = 'Por favor, introduce el texto que quieras Doge-ar. Cada frase debería estar separada usando barras oblicuas o saltos de línea.'
-    },
-    ['duckduckgo'] = {
-        ['1'] = '¡No estoy seguro de lo que es eso!'
-    },
-    ['eightball'] = {
-        ['1'] = 'Si.',
-        ['2'] = 'No.',
-        ['3'] = 'Es probable.',
-        ['4'] = 'Bueno, ehm... Si fuese tú, preguntaría de nuevo más tarde.'
+      ['1'] = 'Por favor, introduce el texto que quieras Doge-ar. Cada frase debería estar separada usando barras oblicuas o saltos de línea.'
     },
     ['exec'] = {
-        ['1'] = 'Por favor, selecciona el lenguage en el que quieras ejecutar tu código:',
-        ['2'] = '¡Ocurrió un error! La conexión ha alcanzado el límite de tiempo permitido. ¿Intentabas retrasarme?',
-        ['3'] = 'Has seleccionado "%s" – ¿estás seguro?',
-        ['4'] = 'Atrás',
-        ['5'] = 'Estoy seguro',
-        ['6'] = 'Por favor, introduce el fragmento de código que quieras ejecutar. No tienes que especificar el lenguage, ¡Lo haremos después!',
-        ['7'] = 'Por favor, selecciona el lenguage en el que quieras ejecutar tu código:'
+      ['1'] = 'Por favor, selecciona el lenguage en el que quieras ejecutar tu código:',
+      ['2'] = '¡Ocurrió un error! La conexión ha alcanzado el límite de tiempo permitido. ¿Intentabas retrasarme?',
+      ['3'] = 'Has seleccionado "%s" – ¿estás seguro?',
+      ['4'] = 'Atrás',
+      ['5'] = 'Estoy seguro',
+      ['6'] = 'Por favor, introduce el fragmento de código que quieras ejecutar. No tienes que especificar el lenguage, ¡Lo haremos después!',
+      ['7'] = 'Por favor, selecciona el lenguage en el que quieras ejecutar tu código:'
     },
     ['facebook'] = {
-        ['1'] = '¡Ocurrió un error!',
-        ['2'] = 'Por favor, introduce el nombre del ususario de Facebook del cuál quieras obtener la imagen de perfil.',
-        ['3'] = 'Ver @%s en Facebook'
+      ['1'] = '¡Ocurrió un error!',
+      ['2'] = 'Por favor, introduce el nombre del ususario de Facebook del cuál quieras obtener la imagen de perfil.',
+      ['3'] = 'Ver @%s en Facebook'
     },
     ['fact'] = {
-        ['1'] = 'Generar otro'
+      ['1'] = 'Generar otro'
     },
     ['flickr'] = {
-        ['1'] = 'Buscaste por:',
-        ['2'] = 'Por favor introduce una consulta (esto es, qué es lo que quieres que busque en Flickr, por ejemplo "Big Ben" devolverá una foto del Big Ben de Londres).',
-        ['3'] = 'Más resultados'
-    },
-    ['fortune'] = {
-        ['1'] = '¡Pincha para enviarte tu fortuna!'
-    },
-    ['frombinary'] = {
-        ['1'] = 'Por favor, introduce el valor binario que quieras que convierta a string.',
-        ['2'] = '¡Binario malformado!'
+      ['1'] = 'Buscaste por:',
+      ['2'] = 'Por favor introduce una consulta (esto es, qué es lo que quieres que busque en Flickr, por ejemplo "Big Ben" devolverá una foto del Big Ben de Londres).',
+      ['3'] = 'Más resultados'
     },
     ['game'] = {
-        ['1'] = 'Total de victorias: %s\nTotal de derrotas: %s\nBalance: %s matatamonedas',
-        ['2'] = 'Unirse al juego',
-        ['3'] = '¡Este juego ya ha acabado!',
-        ['4'] = '¡No es tu turno!',
-        ['5'] = '¡No formas parte de este juego!',
-        ['6'] = '¡No puedes moverte ahí!',
-        ['7'] = '¡Ya eres parte de este juego!',
-        ['8'] = '¡Este juego ya ha empezado!',
-        ['9'] = '%s [%s] está jugando contra %s [%s]\n¡Actualmente es el turno de %s!',
-        ['10'] = '¡%s ganó el juego contra %s!',
-        ['11'] = '¡%s empató el juego contra %s!',
-        ['12'] = 'Esperando a oponente...',
-        ['13'] = 'Tic-Tac-Toe',
-        ['14'] = '¡Pincha para enviar el juego al chat!',
-        ['15'] = 'Estadísticas para %s:\n',
-        ['16'] = '¡Juega Tic-Tac-Toe!'
+      ['1'] = 'Total de victorias: %s\nTotal de derrotas: %s\nBalance: %s matatamonedas',
+      ['2'] = 'Unirse al juego',
+      ['3'] = '¡Este juego ya ha acabado!',
+      ['4'] = '¡No es tu turno!',
+      ['5'] = '¡No formas parte de este juego!',
+      ['6'] = '¡No puedes moverte ahí!',
+      ['7'] = '¡Ya eres parte de este juego!',
+      ['8'] = '¡Este juego ya ha empezado!',
+      ['9'] = '%s [%s] está jugando contra %s [%s]\n¡Actualmente es el turno de %s!',
+      ['10'] = '¡%s ganó el juego contra %s!',
+      ['11'] = '¡%s empató el juego contra %s!',
+      ['12'] = 'Esperando a oponente...',
+      ['13'] = 'Tic-Tac-Toe',
+      ['14'] = '¡Pincha para enviar el juego al chat!',
+      ['15'] = 'Estadísticas para %s:\n',
+      ['16'] = '¡Juega Tic-Tac-Toe!'
     },
     ['gblacklist'] = {
-        ['1'] = 'Por favor, responde al usuario que quieras meter en la lista negra globalmente, o especificale por nombre de usuario/ID.',
-        ['2'] = 'No pude obtener información sobre "%s". Por favor, comprueba que el nombre de usuario o la ID son válidos y vuelve a intentarlo.',
-        ['3'] = '¡Eso es un %s, no un usuario!'
+      ['1'] = 'Por favor, responde al usuario que quieras meter en la lista negra globalmente, o especificale por nombre de usuario/ID.',
+      ['2'] = 'No pude obtener información sobre "%s". Por favor, comprueba que el nombre de usuario o la ID son válidos y vuelve a intentarlo.',
+      ['3'] = '¡Eso es un %s, no un usuario!'
     },
     ['gif'] = {
-        ['1'] = 'Por favor, introduce una consulta (esto es, qué es lo que quieres que busque en GIPHY, por ejemplo "gato" devolverá un GIF de un gato).'
-    },
-    ['godwords'] = {
-        ['1'] = 'Por favor, !introduce un valor numérico entre el 1 y el 64!',
-        ['2'] = 'Ese número es demasiado pequeño. Por favor, !especifica uno entre el 1 y el 64!',
-        ['3'] = 'Ese número es demasiado grande. Por favor, !especifica uno entre el 1 y el 64!'
+      ['1'] = 'Por favor, introduce una consulta (esto es, qué es lo que quieres que busque en GIPHY, por ejemplo "gato" devolverá un GIF de un gato).'
     },
     ['gwhitelist'] = {
         ['1'] = 'Por favor responde al usuario que quiereas que ponga en la lista blanca globalmente, o especificale por nombre de usuario/ID.',
@@ -234,7 +185,7 @@ return {
         ['1'] = '¡No se han encontrado resultados!',
         ['2'] = 'No se encontraron funcionalidades que coincidieran con "%s", por favor, ¡vuelve a intentarlo y sé más específico!',
         ['3'] = '\n\nArguments: <required> [optional]\n\nSearch for a feature or get help with a command by using my inline search functionality - just mention me in any chat using the syntax @%s <search query>.',
-        ['4'] = 'Previous',
+        ['4'] = 'Previo',
         ['5'] = 'Siguiente',
         ['6'] = 'Atrás',
         ['7'] = 'Buscar',
@@ -249,9 +200,9 @@ Aquí hay algunos comandos administrativos y una breve descripción de lo que ha
 
 • /kick - Expulsa (banea y luego desbanea) un usuario respondiendo a uno de sus mensajes o especificando su nombre de usuario/ID
 
-• /unban - Unban a user by replying to one of their messages, or by specifying them by username/ID
+• /unban - Desbanea a un usuario respondiendo a uno de sus mensajes o especificando su nombre de usuario/ID
 
-• /setrules <text> - Set the given Markdown-formatted text as the group rules, which will be sent whenever somebody uses /rules
+• /setrules <texto> - Establece el texto formateado con Markdown como las reglas del grupo, que será mandado cada vez que alguien usa /rules
         ]],
         ['10'] = [[
 • /setwelcome - Define el texto formateado con Markdown como mensaje de bienvenida que se enviara cada vez que un usuario entra en tu grupo (el mensaje de bienvenida puede ser deshabilitado desde el menú de administración, accesible via /administration). Puedes usar marcadores para personalizar el mensaje de bienvenida para cada usuario. Usa $user\_id para insertar la ID numérica del usuario, $chat\_id para insertar la ID numérica del chat, $name para insertar el nombre del usuario, $title para insertar el título del chat y $username para insertar el nombre de usuario del nuevo integrante (si el usuario no tiene nombre de usuario, se utilizará su nombre, así que es mejor no utilizar $name)
@@ -283,9 +234,7 @@ Aquí hay algunos comandos administrativos y una breve descripción de lo que ha
         ['21'] = 'Configuraciónes de Administrador',
         ['22'] = 'Programas adicionales',
         ['23'] = [[
-<b>Hi %s! My name's %s, it's a pleasure to meet you</b> %s
-
-I'm a smart bot who is capable of having conversations with humans such as yourself, and I have the ability to administrate your groups too!
+<b>¡Hola %s! Mi nombre es %s, es un placer conocerte</b> %s
 
 I understand many commands, which you can learn more about by pressing the "Commands" button using the attached keyboard.
 
@@ -302,7 +251,7 @@ I understand many commands, which you can learn more about by pressing the "Comm
         ['4'] = 'Click to send the result!'
     },
     ['imdb'] = {
-        ['1'] = 'Previous',
+        ['1'] = 'Previo',
         ['2'] = 'Siguiente',
         ['3'] = 'You are on page %s of %s!'
     },
@@ -348,6 +297,51 @@ System:
     },
     ['ispwned'] = {
         ['1'] = 'That account was found in the following leaks:'
+    },
+    ['developer'] = {
+        ['1'] = '"¡Soy desarrollador/programador web con amor por la música metal/rock y por pasar tiempo con amigos"',
+        ['2'] = 'Facebook',
+        ['3'] = 'Messenger',
+        ['4'] = 'Twitter',
+        ['5'] = 'Instagram',
+        ['6'] = 'Keybase',
+        ['7'] = 'Snapchat',
+        ['8'] = 'GitHub',
+        ['9'] = 'Telegram',
+        ['10'] = 'Trello',
+        ['11'] = 'Pinterest',
+        ['12'] = 'Google+',
+        ['13'] = 'tumblr',
+        ['14'] = 'Imgur',
+        ['15'] = 'Instapaper',
+        ['16'] = 'Wikipedia'
+    },
+    ['dice'] = {
+        ['1'] = 'El rango mínimo es %s.',
+        ['2'] = 'El rango máximo y el contador son %s.',
+        ['3'] = 'El rango máximo es %s, y el contador máximo es %s.',
+        ['4'] = '%s tiradas en un rango de %s:\n'
+    },
+    ['duckduckgo'] = {
+        ['1'] = '¡No estoy seguro de lo que es eso!'
+    },
+    ['eightball'] = {
+        ['1'] = 'Si.',
+        ['2'] = 'No.',
+        ['3'] = 'Es probable.',
+        ['4'] = 'Bueno, ehm... Si fuese tú, preguntaría de nuevo más tarde.'
+    },
+    ['fortune'] = {
+        ['1'] = '¡Pincha para enviarte tu fortuna!'
+    },
+    ['frombinary'] = {
+        ['1'] = 'Por favor, introduce el valor binario que quieras que convierta a string.',
+        ['2'] = '¡Binario malformado!'
+    },
+    ['godwords'] = {
+        ['1'] = 'Por favor, !introduce un valor numérico entre el 1 y el 64!',
+        ['2'] = 'Ese número es demasiado pequeño. Por favor, !especifica uno entre el 1 y el 64!',
+        ['3'] = 'Ese número es demasiado grande. Por favor, !especifica uno entre el 1 y el 64!'
     },
     ['isup'] = {
         ['1'] = 'This website appears to be up, maybe it\'s just you?',
@@ -411,7 +405,7 @@ System:
     ['minecraft'] = {
         ['1'] = '<b>%s has changed his/her username %s time</b>',
         ['2'] = '<b>%s has changed his/her username %s times</b>',
-        ['3'] = 'Previous',
+        ['3'] = 'Previo',
         ['4'] = 'Siguiente',
         ['5'] = 'Atrás',
         ['6'] = 'UUID',
