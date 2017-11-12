@@ -184,7 +184,7 @@ return {
     ['help'] = {
         ['1'] = '¡No se han encontrado resultados!',
         ['2'] = 'No se encontraron funcionalidades que coincidieran con "%s", por favor, ¡vuelve a intentarlo y sé más específico!',
-        ['3'] = '\n\nArguments: <required> [optional]\n\nSearch for a feature or get help with a command by using my inline search functionality - just mention me in any chat using the syntax @%s <search query>.',
+        ['3'] = '\n\nArgumentos: <requerido> [opcional]\n\nBusca una función u obtiene ayuda con un comando usando mi funcionalidad de busca en linea - sólo mencioname en cualquier chat usando la sintaxis @%s <búsqueda>.',
         ['4'] = 'Previo',
         ['5'] = 'Siguiente',
         ['6'] = 'Atrás',
@@ -236,13 +236,13 @@ Aquí hay algunos comandos administrativos y una breve descripción de lo que ha
         ['23'] = [[
 <b>¡Hola %s! Mi nombre es %s, es un placer conocerte</b> %s
 
-I understand many commands, which you can learn more about by pressing the "Commands" button using the attached keyboard.
+Entiendo muchos comandos, puedes aprender cuales pulsando el botón de "Commands" usando el teclado adjunto.
 
-%s <b>Tip:</b> Use the "Settings" button to change how I work%s!
+%s <b>Consejo:</b> ¡Usa el botón de "Settings" para cambiar cómo funciono %s!
 
-%s <b>Find me useful, or just want to help?</b> Donations are very much appreciated, use /donate for more information!
+%s <b>¿Me encuentras útil, o símplemente quieres ayudar?</b> Las donaciones son bien recibidas, ¡usa /donate para más información!
         ]],
-        ['24'] = 'in'
+        ['24'] = 'en'
     },
     ['id'] = {
         ['1'] = 'I\'m sorry, but I don\'t recognise that user. To teach me who they are, forward a message from them to me or get them to send me a message.',
@@ -298,56 +298,6 @@ System:
     ['ispwned'] = {
         ['1'] = 'That account was found in the following leaks:'
     },
-    ['developer'] = {
-        ['1'] = '"¡Soy desarrollador/programador web con amor por la música metal/rock y por pasar tiempo con amigos"',
-        ['2'] = 'Facebook',
-        ['3'] = 'Messenger',
-        ['4'] = 'Twitter',
-        ['5'] = 'Instagram',
-        ['6'] = 'Keybase',
-        ['7'] = 'Snapchat',
-        ['8'] = 'GitHub',
-        ['9'] = 'Telegram',
-        ['10'] = 'Trello',
-        ['11'] = 'Pinterest',
-        ['12'] = 'Google+',
-        ['13'] = 'tumblr',
-        ['14'] = 'Imgur',
-        ['15'] = 'Instapaper',
-        ['16'] = 'Wikipedia'
-    },
-    ['dice'] = {
-        ['1'] = 'El rango mínimo es %s.',
-        ['2'] = 'El rango máximo y el contador son %s.',
-        ['3'] = 'El rango máximo es %s, y el contador máximo es %s.',
-        ['4'] = '%s tiradas en un rango de %s:\n'
-    },
-    ['duckduckgo'] = {
-        ['1'] = '¡No estoy seguro de lo que es eso!'
-    },
-    ['eightball'] = {
-        ['1'] = 'Si.',
-        ['2'] = 'No.',
-        ['3'] = 'Es probable.',
-        ['4'] = 'Bueno, ehm... Si fuese tú, preguntaría de nuevo más tarde.'
-    },
-    ['fortune'] = {
-        ['1'] = '¡Pincha para enviarte tu fortuna!'
-    },
-    ['frombinary'] = {
-        ['1'] = 'Por favor, introduce el valor binario que quieras que convierta a string.',
-        ['2'] = '¡Binario malformado!'
-    },
-    ['godwords'] = {
-        ['1'] = 'Por favor, !introduce un valor numérico entre el 1 y el 64!',
-        ['2'] = 'Ese número es demasiado pequeño. Por favor, !especifica uno entre el 1 y el 64!',
-        ['3'] = 'Ese número es demasiado grande. Por favor, !especifica uno entre el 1 y el 64!'
-    },
-    ['isup'] = {
-        ['1'] = 'This website appears to be up, maybe it\'s just you?',
-        ['2'] = 'That doesn\'t appear to be a valid site!',
-        ['3'] = 'It\'s not just you, this website looks down from here.'
-    },
     ['itunes'] = {
         ['1'] = 'Name:',
         ['2'] = 'Artist:',
@@ -376,9 +326,6 @@ System:
         ['7'] = '%s last listened to:\n',
         ['8'] = 'Unknown',
         ['9'] = 'Click to send the result.'
-    },
-    ['lmgtfy'] = {
-        ['1'] = 'Let me Google that for you!'
     },
     ['location'] = {
         ['1'] = 'You don\'t have a location set. What would you like your new location to be?'
@@ -497,24 +444,12 @@ System:
         ['1'] = 'Your nickname has now been forgotten!',
         ['2'] = 'Your nickname has been set to "%s"!'
     },
-    ['ninegag'] = {
-        ['1'] = 'Read More'
-    },
     ['optout'] = {
         ['1'] = 'You have opted-in to having data you send collected! Use /optout to opt-out.',
         ['2'] = 'You have opted-out of having data you send collected! Use /optin to opt-in.'
     },
     ['paste'] = {
         ['1'] = 'Please select a service to upload your paste to:'
-    },
-    ['pay'] = {
-        ['1'] = 'You currently have %s matatamonedas. Earn more by winning games of Tic-Tac-Toe, using /game - You will win 100 matatamonedas for every game you win, and you will lose 50 for every game you lose.',
-        ['2'] = 'You must use this command in reply to the user you\'d like to send matatamonedas to.',
-        ['3'] = 'Please specify the amount of matatamonedas you\'d like to give %s.',
-        ['4'] = 'The amount specified should be a numerical value, of which can be no less than 0.',
-        ['5'] = 'You can\'t send money to yourself!',
-        ['6'] = 'You don\'t have enough funds to complete that transaction!',
-        ['7'] = '%s matatamonedas have been sent to %s. Your new balance is %s matatamonedas.'
     },
     ['pin'] = {
         ['1'] = 'You haven\'t set a pin before. Use /pin <text> to set one. Markdown formatting is supported.',
@@ -527,11 +462,6 @@ System:
     ['pokedex'] = {
         ['1'] = 'Name: %s\nID: %s\nType: %s\nDescription: %s'
     },
-    ['prime'] = {
-        ['1'] = 'Please enter a number between 1 and 99999.',
-        ['2'] = '%s is a prime number!',
-        ['3'] = '%s is NOT a prime number...'
-    },
     ['promote'] = {
         ['1'] = 'I cannot promote this user because they are a moderator or an administrator of this chat.',
         ['2'] = 'I cannot promote this user because they have already left this chat.',
@@ -541,22 +471,12 @@ System:
         ['1'] = 'This user has opted out of data-storing functionality.',
         ['2'] = 'There are no saved quotes for %s%s! You can save one by using /save in reply to a message they send.'
     },
-    ['randomsite'] = {
-        ['1'] = 'Generate Another'
-    },
-    ['randomword'] = {
-        ['1'] = 'Generate Another',
-        ['2'] = 'Your random word is <b>%s</b>!'
-    },
     ['report'] = {
         ['1'] = 'Please reply to the message you would like to report to the group\'s administrators.',
         ['2'] = 'You can\'t report your own messages, are you just trying to be funny?',
         ['3'] = '<b>%s needs help in %s!</b>',
         ['4'] = 'Click here to view the reported message.',
         ['5'] = 'I\'ve successfully reported that message to %s admin(s)!'
-    },
-    ['rms'] = {
-        ['1'] = '¡Sagrado GNU!'
     },
     ['save'] = {
         ['1'] = 'This user has opted out of data-storing functionality.',
@@ -619,15 +539,6 @@ System:
         ['2'] = '"%s" isn\'t a valid Steam username.',
         ['3'] = '%s has been a user on Steam since %s, on %s. They last logged off at %s, on %s. Click <a href="%s">here</a> to view their Steam profile.',
         ['4'] = '%s, AKA "%s",'
-    },
-    ['synonym'] = {
-        ['1'] = 'You could use the word <b>%s</b>, instead of %s.'
-    },
-    ['thoughts'] = {
-        ['1'] = '%s\n\nPositive: <code>%s%% [%s]</code>\nNegative: <code>%s%% [%s]</code>\nIndifferent: <code>%s%% [%s]</code>\nTotal thoughts: <code>%s</code>'
-    },
-    ['tobinary'] = {
-        ['1'] = 'Please enter the string you would like to convert to binary.'
     },
     ['trust'] = {
         ['1'] = 'No puedo confiar en este usuario porque es un moderador o un administrador de este chat.',
