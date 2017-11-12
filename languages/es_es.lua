@@ -460,12 +460,12 @@ System:
         ['6'] = 'Click here to see the pin, updated to contain the text you gave me.'
     },
     ['pokedex'] = {
-        ['1'] = 'Name: %s\nID: %s\nType: %s\nDescription: %s'
+        ['1'] = 'Nombre: %s\nID: %s\nTipo: %s\nDescripción: %s'
     },
     ['promote'] = {
-        ['1'] = 'I cannot promote this user because they are a moderator or an administrator of this chat.',
-        ['2'] = 'I cannot promote this user because they have already left this chat.',
-        ['3'] = 'I cannot promote this user because they have already been kicked from this chat.'
+        ['1'] = 'No puedo promocionar a este usuario porque es administrador en este chat.',
+        ['2'] = 'No puedo promocionar a este usuario porque ha abandonado este chat.',
+        ['3'] = 'No puedo promocionar a este usuario porque ha sido expulsado de este chat.'
     },
     ['quote'] = {
         ['1'] = 'This user has opted out of data-storing functionality.',
@@ -546,7 +546,7 @@ System:
         ['3'] = 'No puedo confiar en este usuario porque ha sido expulsado de este chat.'
     },
     ['unmute'] = {
-        ['1'] = 'Which user would you like me to unmute? You can specify this user by their @username or numerical ID.',
+        ['1'] = '¿Qué usuario desearías dejar de silenciar? Puedes especificarlo mediante su @nick o su identificador.',
         ['2'] = 'I cannot unmute this user because they are not currently muted in this chat.',
         ['3'] = 'I cannot unmute this user because they are a moderator or an administrator in this chat.',
         ['4'] = 'I cannot unmute this user because they have already left (or been kicked from) this chat.'
