@@ -245,69 +245,69 @@ Entiendo muchos comandos, puedes aprender cuales pulsando el botón de "Commands
         ['24'] = 'en'
     },
     ['id'] = {
-        ['1'] = 'I\'m sorry, but I don\'t recognise that user. To teach me who they are, forward a message from them to me or get them to send me a message.',
-        ['2'] = 'Queried Chat:',
-        ['3'] = 'This Chat:',
-        ['4'] = 'Click to send the result!'
+        ['1'] = 'Lo siento, pero no reconozco a ese usuario. Para enseñarme quién es, reenvíame un mensaje suyo o consigue que me escriba.',
+        ['2'] = 'Chat consultado:',
+        ['3'] = 'Este chat:',
+        ['4'] = '¡Pincha para enviar el resultado!'
     },
     ['imdb'] = {
         ['1'] = 'Previo',
         ['2'] = 'Siguiente',
-        ['3'] = 'You are on page %s of %s!'
+        ['3'] = '¡Te encuentras en la página %s de %s!'
     },
     ['import'] = {
-        ['1'] = 'I don\'t recognise that chat!',
-        ['2'] = 'That\'s not a supergroup, therefore I cannot import any settings from it!',
-        ['3'] = 'Successfully imported administrative settings & toggled plugins from %s to %s!'
+        ['1'] = '¡No reconozco ese chat!',
+        ['2'] = '¡Ese no es un supergrupo, lo que implica que no puedo importar ninguna configuración de el!',
+        ['3'] = 'Importadas las configuraciones administrativas y conmutados los pluggins de %s a %s exitosamente!'
     },
     ['info'] = {
         ['1'] = [[
 ```
 Redis:
-%s Config File: %s
-%s Mode: %s
-%s TCP Port: %s
-%s Version: %s
-%s Uptime: %s days
-%s Process ID: %s
-%s Expired Keys: %s
+%s Archivo de configuración: %s
+%s Modo: %s
+%s Puerto TCP: %s
+%s Versión: %s
+%s Disponibilidad: %s days
+%s ID del proceso: %s
+%s Claves expiradas: %s
 
-%s User Count: %s
-%s Group Count: %s
+%s Número de usuarios: %s
+%s Número de grupos: %s
 
-System:
-%s OS: %s
+Sistema:
+%s Sistema Operativo: %s
 ```
         ]]
     },
     ['instagram'] = {
-        ['1'] = '@%s on Instagram'
+        ['1'] = '@%s en Instagram'
     },
     ['ipsw'] = {
-        ['1'] = '<b>%s</b> iOS %s\n\n<code>MD5 sum: %s\nSHA1 sum: %s\nFile size: %s GB</code>\n\n<i>%s %s</i>',
-        ['2'] = 'This firmware is no longer being signed!',
-        ['3'] = 'This firmware is still being signed!',
-        ['4'] = 'Please select your model:',
-        ['5'] = 'Please select your firmware version:',
-        ['6'] = 'Please select your device type:',
+        ['1'] = '<b>%s</b> iOS %s\n\n<code>Suma MD5: %s\nSuma SHA1: %s\nTamaño de archivo: %s GB</code>\n\n<i>%s %s</i>',
+        ['2'] = '¡Este firmware ya no es firmado!',
+        ['3'] = '¡Este firmware todavía es firmado!',
+        ['4'] = 'Por favor, selecciona tu modelo:',
+        ['5'] = 'Por favor, selecciona tu versión de firmware:',
+        ['6'] = 'Por favor, selecciona tu tipo de dispositivo:',
         ['7'] = 'iPod Touch',
         ['8'] = 'iPhone',
         ['9'] = 'iPad',
         ['10'] = 'Apple TV'
     },
     ['ispwned'] = {
-        ['1'] = 'That account was found in the following leaks:'
+        ['1'] = 'Esa cuenta se encontró en las siguiente filtraciones:'
     },
     ['itunes'] = {
-        ['1'] = 'Name:',
-        ['2'] = 'Artist:',
-        ['3'] = 'Album:',
-        ['4'] = 'Track:',
-        ['5'] = 'Disc:',
-        ['6'] = 'The original query could not be found, you\'ve probably deleted the original message.',
-        ['7'] = 'The artwork can be found below:',
-        ['8'] = 'Please enter a search query (that is, what you want me to search iTunes for, i.e. "Green Day American Idiot" will return information about the first result for American Idiot by Green Day).',
-        ['9'] = 'Get Album Artwork'
+        ['1'] = 'Nombre:',
+        ['2'] = 'Artista:',
+        ['3'] = 'Álbum:',
+        ['4'] = 'Pista:',
+        ['5'] = 'Disco:',
+        ['6'] = 'No se puede encontrar la búsqueda original, posiblemente hayas borrado el mensaje original.',
+        ['7'] = 'La ilustración puede encontrarse abajo:',
+        ['8'] = 'Por favor, introduce la búsqueda (esto es, lo que quieras que busque en iTunes, por ejemplo "Green Day American Idiot" devolverá información del primer resultado para American Idiot de Green Day).',
+        ['9'] = 'Obtener la ilustración del álbum'
     },
     ['kick'] = {
         ['1'] = 'Which user would you like me to kick? You can specify this user by their @username or numerical ID.',
